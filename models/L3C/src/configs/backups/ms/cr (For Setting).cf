@@ -1,0 +1,38 @@
+optim = OPT
+
+lr.initial = _LR_INT_
+lr.schedule = _LR_SC_
+weight_decay = _WD_
+
+num_scales = _NS_
+shared_across_scales = _SAS_
+
+Cf = _CF_
+kernel_size = _KS_
+
+dmll_enable_grad = _DEG_
+
+rgb_bicubic_baseline = _RBB_
+
+enc.cls = ENC_CLS
+enc.num_blocks = ENC_NUM
+enc.feed_F = ENC_F
+enc.importance_map = ENC_IM
+
+learned_L = _LL_
+
+dec.cls = DEC_CLS
+dec.num_blocks = DEC_BN
+dec.skip = DEC_SKIP
+
+q.cls = Q_CLS
+q.C = _QC_
+# We assume q.L levels, evenly distributed between q.levels_range[0] and q.levels_range[1], see net.py
+q.L = _QL_
+q.levels_range = Q_LR
+q.sigma = _QS_
+
+prob.K = PR_K
+
+after_q1x1 = A_Q1Q
+x4_down_in_scale0 = X4DIS
