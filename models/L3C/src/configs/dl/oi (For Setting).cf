@@ -1,0 +1,13 @@
+batchsize_train = BS_T
+batchsize_val = BS_V
+crop_size = CS
+
+max_epochs = ME
+
+image_cache_pkl = 'ICP'
+train_imgs_glob = 'TIG'
+val_glob = 'VG'
+
+val_glob_min_size = None  # for cache_p
+num_val_batches = VB
+
